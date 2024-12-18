@@ -1,0 +1,17 @@
+<div class="w3-card-4 w3-margin-bottom w3-light-grey w3-padding">
+  <h3 class="w3-text-teal"><%= country_data_final.name %></h3>
+  <ul class="w3-ul w3-small">
+    <li><strong>Mobile Phones:</strong> <%= country_data_final.mobilephones %></li>
+    <li><strong>Mortality under 5:</strong> <%= country_data_final.mortalityunder5 %></li>
+    <li><strong>Health Expenditure per Capita:</strong> <%= country_data_final.healthexpenditurepercapita %></li>
+    <li><strong>Health Expenditure (% of GDP):</strong> <%= country_data_final.healthexpenditureppercentgdp %></li>
+    <li><strong>Population:</strong> <%= country_data_final.population %></li>
+    <li><strong>Urban Population:</strong> <%= country_data_final.populationurban %></li>
+    <li><strong>Birth Rate:</strong> <%= country_data_final.birthrate %></li>
+    <li><strong>Life Expectancy:</strong> <%= country_data_final.lifeexpectancy %></li>
+    <li><strong>GDP:</strong> <%= country_data_final.gdp %></li>
+  </ul>
+  <div class="w3-center">
+    <%= link_to "New Country Data Final", new_country_data_final_path, class: "w3-btn w3-large w3-green" %>
+  </div>
+</div>  
